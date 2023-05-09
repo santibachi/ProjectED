@@ -1,0 +1,29 @@
+git
+
+Hay que irse a la carpeta que guardar en git
+
+
+git init (crea un archivo oculto .git)
+
+git status
+
+git add . (con punto seleccionas todo para que se guarde en el index que es el .git)
+
+git status ahora se verá en verde porque está en el archivo oculto
+
+
+--Es necesario decir un autor y correo
+git config --global user.name "Santi"
+git config --global user.mail "santiago.balboa.chico.alu@iesjulioverne.es"
+
+git commit -m "v1.0" (para que confirme que se quede y le pongo menaje)
+
+cambio el proy1 entonces lo añado
+git add proy1
+git commit -m "v1.1"
+
+git log (me dice los commit que se han guardado en head)
+
+el hash si lo copio me restaura con:
+git reset --hard "hash"
+
