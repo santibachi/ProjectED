@@ -27,3 +27,6 @@ git log (me dice los commit que se han guardado en head)
 el hash si lo copio me restaura con:
 git reset --hard "hash"
 
+
+añado parrafo desde programador
+
